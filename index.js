@@ -107,9 +107,12 @@ Use the removeLastFlavor function below to do the following:
     For example: running removeLastFlavor(originalFlavors) would return ["Rainbow Sherbert", "Banana Nut Fudge",..."Vanilla"]
 */
 
-function removeLastFlavor(/*your code here*/){
-   /*your code here*/
+function removeLastFlavor(arr,stg){
+   arr.pop();
+   return (arr);
 }
+
+removeLastFlavor(originalFlavors);
 
 
 
@@ -170,10 +173,9 @@ Use the filterByWord function below to do the following:
     DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
 
-function filterByWord(arr.stg){
-    for (i=0, i > x , i--)
-    arr.includes(fromIndex())
-    newArry=
+function filterByWord(arr,stg){
+    for (i=0, i > x , i--){
+    arr.includes(fromIndex);
 }
 
 
