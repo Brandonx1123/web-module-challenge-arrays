@@ -174,9 +174,14 @@ Use the filterByWord function below to do the following:
 */
 
 function filterByWord(arr,stg){
-    for (i=0, i > x , i--){
-    arr.includes(fromIndex);
+    const newArr =[]
+    for (i=0; i >arr.length; i--){
+    arr[i].includes(stg);
+    newArr.push(arr[i]);
 }
+return newArr;
+}
+
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
